@@ -13,10 +13,10 @@ public class SwimConfig extends AbstractModConfig {
 
     public boolean enabled = true;
 
-    public double strafeRollStrength = 2.5;
-    public double strafeYawStrength = 1;
+    public double strafeRollStrength = 5.6;
+    public double strafeYawStrength = 0.0;
 
-    public boolean strafeDoStrafe = true;
+    public boolean strafeDoStrafe = false;
 
     public boolean velocityEnable = true;
     public double velocityMin = 0.4;
@@ -24,8 +24,8 @@ public class SwimConfig extends AbstractModConfig {
     public double velocityScale = 8.65;
 
     public static class Smoothing {
-        public boolean smoothingEnabled = true;
-        public boolean strafeSmoothingEnabled = true;
+        public boolean smoothingEnabled = false;
+        public boolean strafeSmoothingEnabled = false;
 
         public Sensitivity values = new Sensitivity(.5, .5, .5);
     }
